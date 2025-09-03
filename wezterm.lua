@@ -95,11 +95,14 @@ config.window_padding = {
 	bottom = 5,
 }
 
-local bg_opacity = 0.7
--- config.color_scheme = "Brogrammer (Gogh)" -- For Non-Transparency
-config.window_background_opacity = bg_opacity
-config.text_background_opacity = bg_opacity - 0.1
+-- local bg_opacity = 0.7
+-- For Non-Transparency
+config.color_scheme = "Brogrammer (Gogh)"
+-- config.window_background_opacity = bg_opacity
+-- config.text_background_opacity = bg_opacity - 0.1
 config.max_fps = 120
 config.prefer_egl = true
+
+config.scrollback_lines = 3500
 
 return config
